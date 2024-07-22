@@ -291,6 +291,7 @@ nav .navigation ul li a:hover{
   width: 100px;
   height: 130px;
   object-fit: cover;
+  border-radius: 20px;
 }
 
 .pro-links{
