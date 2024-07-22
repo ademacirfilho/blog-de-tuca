@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog de tuca</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navegação -->
+
+        <nav>
+            <img src="images/if.png" alt="logo">
+            <div class="navigation">
+                <ul>
+                    <i id= "menu-close" class="fas fa-times"></i>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a class="active" href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Quem somos?</a></li>
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+            </div>
+
+        </nav>
+
+        <!-- Inicio -->
+         <section id="about-Home" >
+            <h2>Blog</h2>
+         </section>
+
+         <section id="blog-container">
+            <div class="blogs">
+                <div class="post">
+                    <img src="/images/mulher-pc.jpg" alt="">
+                    <h3>A Revolução da Educação Sexual através da Tecnologia</h3>
+                    <p>A tecnologia tem revolucionado a educação sexual, proporcionando amplo acesso a informações precisas e abrangentes. Websites, blogs, vídeos e aplicativos móveis ajudam a desmistificar mitos e fornecer conhecimento sobre temas como anatomia, contracepção e prevenção de doenças sexualmente transmissíveis. Essa democratização do conhecimento empodera as pessoas a fazer escolhas informadas sobre sua vida sexual.</p>
+                    <a href="https://www.youtube.com/live/wQU5CJpzw38?si=TM4VL8xlBzYD0Sxa" target="_blank">Vídeo sobre o assunto</a>
+                </div>
+                <div class="post">
+                    <img src="images/telemediciina.jpg" alt="">
+                    <h3>Telemedicina: Facilitando o Acesso à Saúde Sexual</h3>
+                    <p>A telemedicina tem melhorado o acesso à saúde sexual, permitindo consultas online que oferecem confidencialidade e conveniência. Aplicativos e plataformas facilitam o tratamento de DSTs e disfunções sexuais, superando barreiras de privacidade e estigma. Esse avanço promove um atendimento médico mais acessível e resultados de saúde melhores.</p>
+                    <a href="https://youtu.be/yZ7N0J2PHgk?si=epgFeN7M6sNVEXah" target="_blank">Vídeo sobre o assunto</a>
+                    </div>
+                <div class="post">
+                <img src="images/porn.jpg" alt="">
+                <h3>Os Desafios da Pornografia na Era Digital</h3>
+                <p>Apesar dos benefícios da tecnologia, o fácil acesso à pornografia pode levar a expectativas irrealistas sobre o sexo, afetando a auto-estima e a satisfação sexual. A exposição constante pode resultar em desensibilização e dependência, dificultando a manutenção de relacionamentos saudáveis. A pornografia muitas vezes retrata situações irreais, distorcendo a percepção das experiências sexuais.</p>
+                <a href="https://youtu.be/crYWiKl6BH0?si=Drge-Ut91MzBSOgh" target="_blank">Vídeo sobre o assunto</a>
+                </div>
+                <div class="post">
+                    <img src="images/segurança.jpg" alt="">
+                    <h3>Privacidade e Segurança na Sexualidade Digital</h3>
+                    <p>Na era digital, a privacidade e a segurança são preocupações essenciais, especialmente em relação à sexualidade e saúde sexual. Aplicativos de encontros e plataformas de saúde sexual coletam dados pessoais que precisam ser protegidos contra vazamentos e acessos não autorizados. O anonimato online pode facilitar fraudes e assédio sexual, tornando crucial a conscientização sobre os riscos e a implementação de medidas de segurança por parte dos usuários e reguladores.</p>
+                    <a href="#">Vídeo sobre o assunto</a>
+                    </div>
+                </div>
+
+            <div class="cate">
+                <h2>Fontes</h2>
+                <hr>
+                <a href="https://www.plannedparenthood.org/learn" target="_blank">Planned Parenthood</a>
+                <hr>
+                <a href="https://www.jmir.org/" target="_blank">Journal of Medical Internet Research</a>
+                <hr>
+                <a href="https://link.springer.com/journal/10508" target="_blank">Archives of Sexual Behavior</a>
+                <hr>
+                <a href="https://privacyinternational.org/" target="_blank">Privacy International</a>
+                <hr>
+            </div>
+
+         </section>
+
+
+        <!-- Footer -->
+
+        <footer>
+            <div class="copyrigth">
+                <p>Copyrigth 2024 Todos os direiros reservados a Turma de Infoweb3M</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <a href="https://www.instagram.com/infoweb_2022/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+        </footer>
+
+
+        <script>
+
+            $('#menu-btn').click(function(){
+                $("nav .navigation ul").addClass('active')
+            });
+
+            $('#menu-close').click(function(){
+                $("nav .navigation ul").removeClass('active')
+            });
+
+        </script>
+
+
+    </body>
+
+</html>

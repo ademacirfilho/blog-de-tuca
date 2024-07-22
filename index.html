@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog de Tuca</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navegação -->
+
+        <nav>
+            <img src="images/if.png" alt="logo">
+            <div class="navigation">
+                <ul>
+                    <i id= "menu-close" class="fas fa-times"></i>
+                    <li><a class="active"href="#">Inicio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Quem somos?</a></li>
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+            </div>
+
+        </nav>
+
+        <!-- Inicio -->
+         <section id="Home" >
+            <h2>Impacto da tecnologia na Sexualidade e Saúde Sexual</h2>
+            <p>A pornografia pode ter um impacto significativo na vida dos jovens, principalmente devido à facilidade de acesso proporcionada pelas tecnologias modernas.
+            </p>
+            <div class="btn">
+                <a class="blue" href="post.html">Saiba Mais</a>
+            </div>
+         </section>
+
+        <!-- features -->
+
+
+
+
+        <!-- Courses -->
+        <section id="course">
+           <h1>Notícias</h1>
+            <p>Quebrando o tabu da Sexualidade</p>
+            <div class="course-box">
+
+                <div class="courses">
+                    <img src="/images/redes-sociais-vida sexual.jpg" alt="">
+                    <div class="details">                  
+                        <span>Postado 24/02/24</span>
+                        <h6>Redes sociais estão afetando a vida sexual</h6>                      
+                    </div>
+                    <div class="cost">
+                        <a href="https://www.terra.com.br/vida-e-estilo/saude/redes-sociais-estao-afetando-a-vida-sexual,51d786e39332df6352e2fe07933042c4x8sla7nw.html" target="_blank">Ver</a>
+                    </div>
+                </div>
+
+                <div class="courses">
+                    <img src="/images/carmo-dalla.jpg" alt="">
+                    <div class="details">
+                        <span>Postado há 2 semanas</span>
+                        <h6>Carmo Dalla Vecchia diz que vício em pornografia atrapalhou sua vida íntima</h6>
+                    </div>
+                    <div class="cost">
+                        <a href="https://f5.folha.uol.com.br/celebridades/2024/07/carmo-dalla-vecchia-diz-que-vicio-em-pornografia-atrapalhou-sua-vida-intima.shtml" target="_blank">Ver</a>  
+                    </div>
+                </div>
+
+                <div class="courses">
+                    <img src="images/orgasmo.jpg" alt="">
+                    <div class="details">
+                        <span>Postado 23/08/2023</span>
+                        <h6>Inteligência artificial recria imagem de orgasmos</h6>
+                    </div>
+                    <div class="cost">
+                        <a href="https://www.correiobraziliense.com.br/tecnologia/2023/08/5119333-inteligencia-artificial-recria-imagem-de-orgasmos.html" target="_blank">Ver</a>   
+                    </div>
+                </div>
+        </section>
+  
+
+
+
+
+
+
+        <!-- Registration -->
+
+
+
+        <!-- Footer -->
+
+        <footer>
+            <div class="copyrigth">
+                <p>Copyrigth 2024 Todos os direiros reservados a Turma de Infoweb3M</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <a href="https://www.instagram.com/infoweb_2022/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+        </footer>
+
+
+        <script>
+
+            $('#menu-btn').click(function(){
+                $("nav .navigation ul").addClass('active')
+            });
+
+            $('#menu-close').click(function(){
+                $("nav .navigation ul").removeClass('active')
+            });
+
+        </script>
+
+
+    </body>
+
+</html>
